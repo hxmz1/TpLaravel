@@ -47,7 +47,7 @@
                 @csrf
                 @method('DELETE')
                 <input type="hidden" name="_method" value="delete">
-                <button type="submit" class="btn btn-danger">Delete</button>
+                <button type="submit" class="btn btn-danger">delete</button>
                 </form>
             </td>
             <button type="submit" class="btn btn-danger" onclick="return confirm('Êtes vous sur de vouloir effectuer cette opération');">Delete</button>
